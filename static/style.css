@@ -57,6 +57,7 @@ height: inherit;
     margin-right: 0.7rem;
 
 
+
 }
  .logo3, .logo4, .logo5 {
     max-width: 4.5rem;
@@ -74,13 +75,13 @@ height: inherit;
 }
 
 .logo1 {
-    max-width: 7rem;
+    max-width: 4rem;
     margin-right: 0.8rem;
     padding-bottom: 0.3rem;
 }
 
 .logo6 {
-    max-width: 9rem;
+    max-width: 8rem;
     padding-left: 0.5rem;
 
 }
@@ -88,6 +89,10 @@ height: inherit;
 .logo7{
 max-width: 10rem;
 padding-bottom: 0.3rem;
+}
+
+.logo8 {
+    max-width: 25rem;
 }
 
 
@@ -227,7 +232,7 @@ span {
 .subtitle1 {
     display: block;
     line-height: 1.5;
-    color:  #06603c;
+    color:  #0d0b8a;
     text-align: center; 
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -424,12 +429,16 @@ span {
 .intro__title, .contact__title, .about__title {
     font-family:'Roboto';
     font-size: 2rem;
-    color:##06603c ;
-    padding-bottom: 1rem;
+    font-weight: 800;
+    color:#0d0b8a ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 
 
 }
-
+.lunch {
+    background-color: #98f5d7;
+}
 .intro__content {
     display: block;
     position: relative;
@@ -456,6 +465,9 @@ span {
 }
 p {
     padding-bottom: 0.5rem;
+}
+.conf {
+    max-width: 20rem;
 }
 
 .termitup {
